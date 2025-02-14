@@ -111,6 +111,7 @@ function App() {
       });
     } else {
       // Simulate a default response
+      console.log("Simulating default response...");
       setVerse({
         reference: "John 3:16",
         text: "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",
@@ -118,6 +119,7 @@ function App() {
       setBibleQuotes([
         { reference: "John 3:16", text: "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life." }
       ]);
+      console.log("Default verse and Bible quotes set.");
     }
   };
 
